@@ -17,8 +17,17 @@
   </head>
   <body>
     <div id="app"></div>
+
+    <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
     <script>
       window.$docsify = {
+        plugins: [
+          EditOnGithubPlugin.create(
+            "https://github.com/wheatandcat/memoir-handbook/blob/main/docs/",
+            null,
+            "Edit on github"
+          ),
+        ],
         name: "<span>- memoir -</span>",
         loadSidebar: true,
         mergeNavbar: true,
