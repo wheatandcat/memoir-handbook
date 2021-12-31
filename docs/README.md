@@ -1,5 +1,11 @@
 # memoir Handbook
 
+memoirの実装の仕様をまとめる
+
+■ リポジトリ <br/>
+https://github.com/wheatandcat/memoir-handbook
+
+
 
 ## インストール
 
