@@ -14,7 +14,7 @@ $ npm i docsify-cli -g
 
 
 ```bash
-$ docsify serve ./
+$ docsify serve ./docs/
 ```
 
 ## デザイン
