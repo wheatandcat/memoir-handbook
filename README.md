@@ -1,13 +1,13 @@
-# memoir handbook
+# memoir Handbook
 
 memoirの実装の仕様をまとめる
 
-■ リポジトリ
+■ リポジトリ <br/>
 https://github.com/wheatandcat/memoir-handbook
 
 
-## install
 
+## インストール
 
 ```bash
 $ npm i docsify-cli -g
@@ -20,3 +20,6 @@ $ npm i docsify-cli -g
 ```bash
 $ docsify serve ./
 ```
+
+## デザイン
+ - Icons by [Icons8](https://icons8.jp/)
