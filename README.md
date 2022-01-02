@@ -17,5 +17,13 @@ $ npm i docsify-cli -g
 $ docsify serve ./docs/
 ```
 
+## textlint
+
+
+```bash
+$ yarn textlint
+```
+
+
 ## デザイン
  - Icons by [Icons8](https://icons8.jp/)

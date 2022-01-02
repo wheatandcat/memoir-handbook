@@ -1,0 +1,32 @@
+{
+  "name": "memoir-handbook",
+  "version": "1.0.0",
+  "description": "https://wheatandcat.github.io/memoir-handbook/#/",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "textlint": "textlint ./docs/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheatandcat/memoir-handbook.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wheatandcat/memoir-handbook/issues"
+  },
+  "homepage": "https://github.com/wheatandcat/memoir-handbook#readme",
+  "dependencies": {
+    "textlint": "^12.1.0",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.0",
+    "textlint-rule-ja-no-weak-phrase": "^2.0.0",
+    "textlint-rule-no-todo": "^2.0.1",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-preset-smarthr": "^1.10.0"
+  }
+}
