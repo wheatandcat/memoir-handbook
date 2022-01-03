@@ -4,7 +4,8 @@
 
 - [Top](/)
 - 基本
-    - [ガイド](guide)
+    - [ガイド](guide/index)
+    - [Handbookを編集する](guide/01-local)
     - [単語集](word)
 - 設計
     - [達成したタスク](functions/task/01-task)
