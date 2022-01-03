@@ -1,1 +1,4 @@
 node_modules
+.envrc
+app.yaml
+gcpServiceAccount.json
