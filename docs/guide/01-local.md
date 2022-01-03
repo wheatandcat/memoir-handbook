@@ -52,7 +52,7 @@ $ open http://localhost:3000/
 
  - 1. 以下のコマンドでブランチを作成。※ブランチ名はユニークな名前ならOK（例: wheatandcat-update-gide-01）
     - ```bash
-      $ git checkout -b wheatandcat-update-gide-01
+      $ git checkout -b wheatandcat-update-gide-01 origin/main
       ```
  - ２. 以下のコマンドでローカル環境を起動
     - ```bash
