@@ -38,17 +38,9 @@ $ git push origin v1.0.0
 
 ## 環境変数設定
 
-
-```bash
-$ base64 -i gcpServiceAccount.json | pbcopy
-```
-
 ```bash
 $ base64 -i app.yaml | pbcopy
 ```
-
-
-
 
 ## デザイン
  - Icons by [Icons8](https://icons8.jp/)
