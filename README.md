@@ -30,7 +30,10 @@ $ yarn textlint
 ## 本番環境デプロイ
 
 ```bash
-
+$ git checkout main
+$ git pull --ff-only origin main
+$ git tag -a v1.0.0 -m 'リリース内容'
+$ git push origin v1.0.0
 ```
 
 ## 環境変数設定
