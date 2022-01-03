@@ -1,0 +1,29 @@
+name: Deploy Production
+
+on:
+  push:
+    tags:
+      - 'v*'
+env:
+  APP_YAML: ${{ secrets.APP_YAML }}
+  GCP_SERVICE_ACCOUNT_JSON: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Create .env file
+      run: echo $APP_YAML | base64 --decode -i > ./app.yaml
+
+    - id: 'auth'
+      uses: 'google-github-actions/auth@v0'
+      with:
+        credentials_json: '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}'
+    - name: 'Set up Cloud SDK'
+      uses: 'google-github-actions/setup-gcloud@v0'
+
+    - uses: FranzDiebold/github-env-vars-action@v1.2.1
+    - name: Use gcloud CLI
+      run: gcloud app deploy --quiet app.yaml --version=$GITHUB_REF_NAME_SLUG
