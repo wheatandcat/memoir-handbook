@@ -22,6 +22,7 @@ jobs:
         project_id: ${{ secrets.GCP_PROJECT_ID }}
         service_account_key: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
         export_default_credentials: true
+
+    - uses: FranzDiebold/github-env-vars-action@v1.2.1
     - name: Use gcloud CLI
-      run: |
-        gcloud app deploy --quiet app.yaml --version=$GITHUB_REF_NAME_SLUG
+      run: gcloud app deploy --quiet app.yaml --version=$GITHUB_REF_NAME_SLUG
