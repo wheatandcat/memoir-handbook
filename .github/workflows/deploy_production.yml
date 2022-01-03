@@ -12,16 +12,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - id: 'auth'
+      uses: 'google-github-actions/auth@v0'
+      with:
+        credentials_json: '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}'
+
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Create .env file
       run: echo $APP_YAML | base64 --decode -i > ./app.yaml
     - name: Set up Cloud SDK
-      uses: google-github-actions/setup-gcloud@master
-      with:
-        project_id: ${{ secrets.GCP_PROJECT_ID }}
-        service_account_key: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
-        export_default_credentials: true
+      uses: google-github-actions/setup-gcloud@v0
 
     - uses: FranzDiebold/github-env-vars-action@v1.2.1
     - name: Use gcloud CLI
