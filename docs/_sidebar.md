@@ -9,6 +9,8 @@
     - [ログイン](functions/login/01-authentication)
     - [招待機能](functions/invite/01-description)
     - [共有メンバー](functions/relation/01-relation)
-    - [振り返り機能](functions/memoir/01-memoir)
+    - 振り返り
+      - [振り返り機能](functions/memoir/01-memoir)
+      - [達成したタスクを検索する機能](functions/memoir/02-search)
  - 通知
     - [Push通知一覧](functions/notification/01-push)
