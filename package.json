@@ -7,7 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "textlint": "textlint ./docs/**"
+    "textlint": "textlint ./docs/**",
+    "changeLog": "zx ./changeLog.mjs"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
     "textlint-rule-preset-ja-spacing": "^2.2.0",
     "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "textlint-rule-preset-smarthr": "^1.10.0"
+  },
+  "devDependencies": {
+    "zx": "^4.3.0"
   }
 }

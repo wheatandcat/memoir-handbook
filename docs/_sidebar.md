@@ -4,6 +4,7 @@
     - [Handbookを編集する](guide/01-local)
     - [単語集](word)
     - [画面名](screen)
+    - [編集履歴](CHANGE_LOG) 
 - 設計
     - [達成したタスク](functions/task/01-task)
     - [ログイン](functions/login/01-authentication)

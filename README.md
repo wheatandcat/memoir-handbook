@@ -27,6 +27,13 @@ $ docsify serve ./docs/
 $ yarn textlint
 ```
 
+## 編集履歴の更新
+
+
+```bash
+$ yarn changeLog
+```
+
 ## 本番環境デプロイ
 
 ```bash
