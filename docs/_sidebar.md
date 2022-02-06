@@ -1,11 +1,15 @@
 - [Top](/)
 - 基本
     - [ガイド](guide/index)
-    - [Handbookを編集する](guide/01-local)
+     - Handbookのガイド
+      - [Handbookを編集する](guide/01-local)
+      - [開発の手順](guide/02-work-procedure)
+      - [フォルダ構成](guide/03-folder-structure)
+      - [運用ポリシー](guide/04-policy)
     - [単語集](word)
     - [画面名](screen)
     - [編集履歴](CHANGE_LOG) 
-- 設計
+- 機能設計
     - [達成したタスク](functions/task/01-task)
     - [ログイン](functions/login/01-authentication)
     - [招待機能](functions/invite/01-description)

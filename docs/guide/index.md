@@ -5,10 +5,11 @@ GitLabの[Handbook](https://about.gitlab.com/handbook/)の思想を参考に運�
 
 
 ## Handbookの編集ガイド
-
+以下を参照する。
   - [Handbookを編集する](guide/01-local)
-
-
+  - [開発の手順](guide/02-work-procedure)
+  - [フォルダ構成](guide/03-folder-structure)
+  - [運用ポリシー](guide/04-policy)
 
 ## ステージング環境と本番環境の運用ルール
 
