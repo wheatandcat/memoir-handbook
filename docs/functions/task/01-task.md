@@ -20,14 +20,15 @@
 
 以下のカテゴリーが存在する。
 
+
 |  項目名  | 画像 |
 | ---- | ---- |
-|  生活全般  | <img src="../../img/category_aquarium@2x.png" width="40"/> |
-|  飲食した  | <img src="../../img/category_food@2x.png" width="40"/> |
-|  健康関連  | <img src="../../img/category_heart@2x.png" width="40"/> |
-|  外出した  | <img src="../../img/category_door_close@2x.png" width="40"/> |
-|  趣味全般  | <img src="../../img/category_dancing@2x.png" width="40"/> |
-|  鑑賞した  | <img src="../../img/category_musical@2x.png" width="40"/> |
-|  勉強した  | <img src="../../img/category_study@2x.png" width="40"/> |
-|  買った  | <img src="../../img/category_shopping@2x.png" width="40"/> |
-|  特別なこと  | <img src="../../img/category_specialstar@2x.png" width="40"/> |
+|  生活全般  | ![icon](../../img/category_aquarium@1x.png) |
+|  飲食した  | ![icon](../../img/category_food@1x.png) |
+|  健康関連  | ![icon](../../img/category_heart@1x.png) |
+|  外出した  | ![icon](../../img/category_door_close@1x.png) |
+|  趣味全般  | ![icon](../../img/category_dancing@1x.png) |
+|  鑑賞した  | ![icon](../../img/category_musical@1x.png) |
+|  勉強した  | ![icon](../../img/category_study@1x.png) |
+|  買った  | ![icon](../../img/category_shopping@1x.png) |
+|  特別なこと  | ![icon](../../img/category_specialstar@1x.png) |
