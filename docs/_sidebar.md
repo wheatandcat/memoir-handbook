@@ -12,6 +12,7 @@
 - 機能設計
     - [達成したタスク](functions/task/01-task)
     - [ログイン](functions/login/01-authentication)
+    - [アカウントを完全に削除する](functions/delete_user/01-delete)
     - [招待機能](functions/invite/01-description)
     - [共有メンバー](functions/relation/01-relation)
     - 振り返り
